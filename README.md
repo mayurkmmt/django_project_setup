@@ -1,4 +1,4 @@
-# Django Project Setup
+# django project setup
 
 
 
@@ -15,14 +15,14 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
-git remote add origin https://gitlab.com/mayurk.mmt/django_project_setup.git
+git remote add origin https://gitlab.com/parasmmt/django-project-setup.git
 git branch -M main
 git push -uf origin main
 ```
 
 ## Integrate with your tools
 
-- [ ] [Set up project integrations](https://gitlab.com/mayurk.mmt/django_project_setup/-/settings/integrations)
+- [ ] [Set up project integrations](https://gitlab.com/parasmmt/django-project-setup/-/settings/integrations)
 
 ## Collaborate with your team
 

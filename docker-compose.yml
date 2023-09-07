@@ -1,0 +1,23 @@
+version: "3"
+
+volumes:
+  media:
+    driver: local
+
+services:
+  web:
+    build: .
+    image: django_demo
+    command: python manage.py runserver 0.0.0.0:8000
+    restart: always
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    networks:
+      - django_demo_network
+
+networks:
+  django_demo_network:
+    ipam:
+      driver: default
